@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    
+    font-family: 'Lato', cursive;
+}
+.container{
+    background-image: url("graduation.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+    
+}.count-heading-coffee{
+    font-size: 2rem;
+}
+.countdown{
+    margin-top: 2rem;
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+}
+
+.day,.hours,.minutes,.seconds{
+    font-size: 5rem;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h3{
+    background-color: #21D4FD;
+    background-image: linear-gradient(315deg, #21D4FD 0%, #B721FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
